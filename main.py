@@ -4,5 +4,7 @@ from libadd import *
 from libmult import *
 a = 13
 b = 5
-print(plus(a,b,7))
+c = 7
+print(plus(a,b))
+print(plusx(a,b,c))
 print(mult(a,b))
